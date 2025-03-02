@@ -18,11 +18,11 @@ def predict_survival(d):
 st.title("Titanic Survival Prediction")
 
 # Input fields for each parameter
-Pregnancies = st.number_input("Pregnancies", min_value=0.0, max_value=100.0, value=1)
-BloodPressure = st.number_input("BloodPressure",min_value=50.0, max_value=198.0, value=1)
+Pregnancies = st.number_input("Pregnancies", min_value=0.0, max_value=100.0, value=1.0)
+BloodPressure = st.number_input("BloodPressure",min_value=50.0, max_value=198.0, value=1.0)
 SkinThickness = st.number_input("SkinThickness", min_value=0.0, max_value=100.0, value=50.0, step=0.1)
-Insulin = st.number_input("Insulin", min_value=0, max_value=1000, value=1)
-BMI = st.number_input("BMI", min_value=0.0, max_value=100.0, value=0)
+Insulin = st.number_input("Insulin", min_value=0.0, max_value=1000.0, value=1.0)
+BMI = st.number_input("BMI", min_value=0.0, max_value=100.0, value=1.0)
 DiabetesPedigreeFunction = st.number_input("DiabetesPedigreeFunction", min_value=0.0, max_value=500.0, value=7.25, step=0.1)
 Age = st.number_input("Age",min_value=0.0, max_value=100.0, value=50.0, step=0.1)
                         
