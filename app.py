@@ -15,7 +15,7 @@ def predict_survival(d):
     return pred, prob
 
 # Streamlit UI components
-st.title("Titanic Survival Prediction")
+st.title("dibatic or not Prediction")
 
 # Input fields for each parameter
 Pregnancies = st.number_input("Pregnancies", min_value=0.0, max_value=100.0, value=1.0)
